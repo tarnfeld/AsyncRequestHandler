@@ -18,6 +18,9 @@
 		E28E04B914F76EF20098E892 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E28E04A014F76EF20098E892 /* Foundation.framework */; };
 		E28E04C114F76EF20098E892 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E28E04BF14F76EF20098E892 /* InfoPlist.strings */; };
 		E28E04C414F76EF20098E892 /* AsyncRequestHandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E04C314F76EF20098E892 /* AsyncRequestHandlerTests.m */; };
+		E28E04D514F76F620098E892 /* ARRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E04D314F76F620098E892 /* ARRootViewController.m */; };
+		E28E04D914F76F780098E892 /* ARRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E04D714F76F780098E892 /* ARRequestHandler.m */; };
+		E28E04DB14F7700C0098E892 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E28E04DA14F7700C0098E892 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +38,23 @@
 		E28E049E14F76EF20098E892 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E28E04A014F76EF20098E892 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E28E04A214F76EF20098E892 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E28E04A614F76EF20098E892 /* AsyncRequestHandler-Info.plist */ = {isa = PBXFileReference; path = "AsyncRequestHandler-Info.plist"; sourceTree = "<group>"; };
+		E28E04A614F76EF20098E892 /* AsyncRequestHandler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AsyncRequestHandler-Info.plist"; sourceTree = "<group>"; };
 		E28E04A814F76EF20098E892 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E28E04AA14F76EF20098E892 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E28E04AC14F76EF20098E892 /* AsyncRequestHandler-Prefix.pch */ = {isa = PBXFileReference; path = "AsyncRequestHandler-Prefix.pch"; sourceTree = "<group>"; };
-		E28E04AD14F76EF20098E892 /* ARAppDelegate.h */ = {isa = PBXFileReference; path = ARAppDelegate.h; sourceTree = "<group>"; };
+		E28E04AC14F76EF20098E892 /* AsyncRequestHandler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AsyncRequestHandler-Prefix.pch"; sourceTree = "<group>"; };
+		E28E04AD14F76EF20098E892 /* ARAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.objj.h; path = ARAppDelegate.h; sourceTree = "<group>"; };
 		E28E04AE14F76EF20098E892 /* ARAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARAppDelegate.m; sourceTree = "<group>"; };
 		E28E04B514F76EF20098E892 /* AsyncRequestHandlerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncRequestHandlerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E28E04B614F76EF20098E892 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		E28E04BE14F76EF20098E892 /* AsyncRequestHandlerTests-Info.plist */ = {isa = PBXFileReference; path = "AsyncRequestHandlerTests-Info.plist"; sourceTree = "<group>"; };
+		E28E04BE14F76EF20098E892 /* AsyncRequestHandlerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AsyncRequestHandlerTests-Info.plist"; sourceTree = "<group>"; };
 		E28E04C014F76EF20098E892 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E28E04C214F76EF20098E892 /* AsyncRequestHandlerTests.h */ = {isa = PBXFileReference; path = AsyncRequestHandlerTests.h; sourceTree = "<group>"; };
+		E28E04C214F76EF20098E892 /* AsyncRequestHandlerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.objj.h; path = AsyncRequestHandlerTests.h; sourceTree = "<group>"; };
 		E28E04C314F76EF20098E892 /* AsyncRequestHandlerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncRequestHandlerTests.m; sourceTree = "<group>"; };
+		E28E04D214F76F620098E892 /* ARRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = ARRootViewController.h; sourceTree = "<group>"; };
+		E28E04D314F76F620098E892 /* ARRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARRootViewController.m; sourceTree = "<group>"; };
+		E28E04D614F76F780098E892 /* ARRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = ARRequestHandler.h; sourceTree = "<group>"; };
+		E28E04D714F76F780098E892 /* ARRequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARRequestHandler.m; sourceTree = "<group>"; };
+		E28E04DA14F7700C0098E892 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			files = (
 				E28E049F14F76EF20098E892 /* UIKit.framework in Frameworks */,
 				E28E04A114F76EF20098E892 /* Foundation.framework in Frameworks */,
+				E28E04DB14F7700C0098E892 /* QuartzCore.framework in Frameworks */,
 				E28E04A314F76EF20098E892 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,6 +115,8 @@
 		E28E04A414F76EF20098E892 /* AsyncRequestHandler */ = {
 			isa = PBXGroup;
 			children = (
+				E28E04D114F76F490098E892 /* Classes */,
+				E28E04CE14F76F120098E892 /* View Controllers */,
 				E28E04AD14F76EF20098E892 /* ARAppDelegate.h */,
 				E28E04AE14F76EF20098E892 /* ARAppDelegate.m */,
 				E28E04A514F76EF20098E892 /* Supporting Files */,
@@ -116,6 +127,7 @@
 		E28E04A514F76EF20098E892 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E28E04DA14F7700C0098E892 /* QuartzCore.framework */,
 				E28E04A614F76EF20098E892 /* AsyncRequestHandler-Info.plist */,
 				E28E04A714F76EF20098E892 /* InfoPlist.strings */,
 				E28E04AA14F76EF20098E892 /* main.m */,
@@ -141,6 +153,24 @@
 				E28E04BF14F76EF20098E892 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E28E04CE14F76F120098E892 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E28E04D214F76F620098E892 /* ARRootViewController.h */,
+				E28E04D314F76F620098E892 /* ARRootViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E28E04D114F76F490098E892 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E28E04D614F76F780098E892 /* ARRequestHandler.h */,
+				E28E04D714F76F780098E892 /* ARRequestHandler.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +281,8 @@
 			files = (
 				E28E04AB14F76EF20098E892 /* main.m in Sources */,
 				E28E04AF14F76EF20098E892 /* ARAppDelegate.m in Sources */,
+				E28E04D514F76F620098E892 /* ARRootViewController.m in Sources */,
+				E28E04D914F76F780098E892 /* ARRequestHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
